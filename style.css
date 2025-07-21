@@ -219,6 +219,16 @@ section h2 {
   margin-top: 24px;
 }
 
+.media-item iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border-radius: 6px;
+  filter: brightness(0.95);
+  transition: filter 0.3s, transform 0.3s;
+}
+
 @media (max-width: 900px) {
   .project-detail {
     flex-direction: column;
