@@ -123,6 +123,17 @@ section h2 {
   gap: 10px;
   margin: 10px 0;
 }
+
+#contact a[href^="mailto:"] {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#contact a[href^="mailto:"]:hover {
+  color: var(--accent-dark);
+}
+
 .button {
   background: var(--accent);
   color: var(--fg);
