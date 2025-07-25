@@ -105,6 +105,14 @@ section h2 {
   z-index: 1;
 }
 
+.project-card a {
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: none;
+}
+
 .about-content {
   display: flex;
   align-items: flex-start;
