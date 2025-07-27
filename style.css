@@ -248,6 +248,16 @@ section h2 {
   line-height: 1.7;
 }
 
+.accent-link {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.accent-link:hover {
+  color: var(--accent-dark);
+}
+
 .button-group {
   display: flex;
   gap: 12px;
