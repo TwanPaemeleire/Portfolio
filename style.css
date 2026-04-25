@@ -310,6 +310,12 @@ section h2 {
   overflow-y: auto;
 }
 
+.media-column:has(.media-item:only-child) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .media-column::-webkit-scrollbar {
   width: 10px;
 }
