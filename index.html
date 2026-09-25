@@ -1,90 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio Twan Paemeleire</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="Resources/Icon.png">
+
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-bfUIgXV6xBB3E8VJWz1iX.js"></script>
+  <script>
+    window.plausible = window.plausible || function () {(plausible.q = plausible.q || []).push(arguments)}, plausible.init = plausible.init || function (i) {plausible.o = i || {}};
+    plausible.init()
+  </script>
+
 </head>
 
 <body>
 
   <aside class="sidebar">
 
-  <div class="profile-card">
-    <img src="Resources/Images/TwanPaemeleire.jpg" alt="Photo of Twan">
+    <div class="profile-card">
+      <img src="Resources/Images/TwanPaemeleire.jpg" alt="Photo of Twan">
 
-    <h2>Twan Paemeleire</h2>
+      <h2>Twan Paemeleire</h2>
 
-    <p class="tagline">
-      C++/C# Game Developer
-    </p>
+      <p class="tagline">
+        C++/C# Game Developer
+      </p>
 
-    <p class="bio">
-      Hello! My name is Twan. I am a 20 year old game programmer with about 3–4 years of experience, that just graduated 
-      in Game Development at Howest University of Applied Sciences.<br><br>
-      I thrive in collaborative environments, working alongside passionate developers to create engaging and unique gameplay experiences. 
-      I have actively participated in multiple game jams and personal projects, where I consistently push myself to deliver high-quality results under tight deadlines. 
-    </p>
-  </div>
-
-  <div class="contact">
-    <h3>Get In Touch</h3>
-
-    <div class="button-group">
-      <a href="Resources/Images/ResumeTwanPaemeleire.pdf" target="_blank" class="button">Resume</a>
-      <a href="https://www.linkedin.com/in/twan-paemeleire" target="_blank" class="button">LinkedIn</a>
-      <a href="mailto:twan.paemeleire@gmail.com" class="button">Email</a>
+      <p class="bio">
+        Hello! My name is Twan. I am a 20 year old game programmer with about 3–4 years of experience, that just
+        graduated
+        in Game Development at Howest University of Applied Sciences.<br><br>
+        I thrive in collaborative environments, working alongside passionate developers to create engaging and unique
+        gameplay experiences.
+        I have actively participated in multiple game jams and personal projects, where I consistently push myself to
+        deliver high-quality results under tight deadlines.
+      </p>
     </div>
-  </div>
 
-</aside>
+    <div class="contact">
+      <h3>Get In Touch</h3>
+
+      <div class="button-group">
+        <a href="Resources/Images/ResumeTwanPaemeleire.pdf" target="_blank" class="button">Resume</a>
+        <a href="https://www.linkedin.com/in/twan-paemeleire" target="_blank" class="button">LinkedIn</a>
+        <a href="mailto:twan.paemeleire@gmail.com" class="button">Email</a>
+      </div>
+    </div>
+
+  </aside>
 
   <main class="main-content">
-
-    <!-- <nav>
-      <ul class="nav-list">
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#current-work">Current Work</a></li>
-      </ul>
-    </nav> -->
-
-    <section id="personal-projects">
-      <h2>Personal Projects</h2>
-
-      <div class="grid-container">
-
-        <div class="project-card">
-          <a href="ecsengine.html">
-            <div class="card-desc">2D C++ ECS Engine</div>
-            <img src="Resources/GIFs/ECSEngine.gif" alt="ECS Engine image">
-          </a>
-        </div>
-
-        <div class="project-card">
-          <a href="idlegame.html">
-            <div class="card-desc">Idle Game (Made using ECS Engine)</div>
-            <img src="Resources/GIFs/IdleGame.gif" alt="Idle Game image">
-          </a>
-        </div>
-
-        <!--<div class="project-card">
-          <a href="bossrushbullethell.html">
-            <div class="card-desc">Unity C# Boss-Rush Bullet-Hell</div>
-            <img src="Resources/Images/BossRushBulletHell/WIP.png" alt="Boss-Rush Bullet-Hell image">
-          </a>
-        </div> --->
-
-                <div class="project-card">
-          <a href="roguelikeitemsystem.html">
-            <div class="card-desc">UE5 C++ Roguelike Item / Inventory System</div>
-            <img src="Resources/GIFs/RoguelikeItemSystem.gif" alt="Roguelike Item/Inventory System image">
-          </a>
-        </div>
-
-      </div>
-    </section>
 
     <section id="professional-projects">
       <h2>Professional Projects</h2>
@@ -95,6 +64,18 @@
           <a href="last4daysdemo.html">
             <div class="card-desc">Last 4 Days Demo (Unity)</div>
             <img src="Resources/GIFs/Last4Days.gif" alt="Last 4 Days image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>Last 4 Days Demo</h3>
+
+                <p>
+                  A turn-based base defender which I worked on during my end-of-study internship at Anaxanthia Games.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>Unity 2022, C#, Visual Studio, Ultimate Character Controller</p>
+              </div>
+            </div>
           </a>
         </div>
 
@@ -102,8 +83,88 @@
           <a href="grilluminati.html">
             <div class="card-desc">Grilluminati Trailer (Unity)</div>
             <img src="Resources/GIFs/Grilluminati.gif" alt="Grilluminati image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>Grilluminati Trailer</h3>
+
+                <p>
+                   An online co-op game that I helped develop during my end-of-study internship at Anaxanthia Games.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>Unity 2022, C#, Visual Studio, Photon Fusion, Ultimate Character Controller</p>
+              </div>
+            </div>
           </a>
         </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section id="personal-projects">
+      <h2>Personal Projects</h2>
+
+      <div class="grid-container">
+
+        <div class="project-card">
+          <a href="ecsengine.html">
+            <div class="card-desc">2D C++ ECS Engine</div>
+            <img src="Resources/GIFs/ECSEngine.gif" alt="ECS Engine image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>2D C++ ECS Engine</h3>
+
+                <p>
+                  A custom 2D game engine built from scratch using an
+                  Entity Component System architecture.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>C++, SDL3, Steam API, Visual Studio</p>
+
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <a href="idlegame.html">
+            <div class="card-desc">Idle Game (Made using ECS Engine)</div>
+            <img src="Resources/GIFs/IdleGame.gif" alt="Idle Game image">
+
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>Idle Game</h3>
+
+                <p>
+                  A 2D idle game built using my custom C++ ECS game engine.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>C++, SDL3, Steam API, Visual Studio</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <a href="roguelikeitemsystem.html">
+            <div class="card-desc">UE5 C++ Roguelike Item / Inventory System</div>
+            <img src="Resources/GIFs/RoguelikeItemSystem.gif" alt="Roguelike Item/Inventory System image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>UE5 C++ Roguelike Item / Inventory System</h3>
+
+                <p>
+                  A recreation of an inventory system used in a game like Risk of Rain 2.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>UE5, C++ Visual Studio</p>
+              </div>
+            </div>
+          </a>
         </div>
 
       </div>
@@ -117,6 +178,20 @@
           <a href="divinehearts.html">
             <div class="card-desc">Divine Hearts</div>
             <img src="Resources/GIFs/DivineHearts.gif" alt="Divine Hearts image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>Divine Hearts</h3>
+
+                <p>
+                  A boss-rush focused game jam entry from a team of 5 people over the course of 1 week.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>Unity 6000, C#, Github, Visual Studio</p>
+                <h4>Placement</h4>
+                <p>355/2276</p>
+              </div>
+            </div>
           </a>
         </div>
 
@@ -124,6 +199,20 @@
           <a href="timechained.html">
             <div class="card-desc">TimeChained</div>
             <img src="Resources/GIFs/TimeChained.gif" alt="TimeChained image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>TimeChained</h3>
+
+                <p>
+                  A dungeon crawler focused game jam entry from a team of 5 people over the course of 1 week.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>Unity 6000, C#, Github, Visual Studio</p>
+                <h4>Placement</h4>
+                <p>23/123</p>
+              </div>
+            </div>
           </a>
         </div>
 
@@ -131,6 +220,20 @@
           <a href="theswingstate.html">
             <div class="card-desc">The Swing State</div>
             <img src="Resources/GIFs/TheSwingState.gif" alt="The Swing State image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>The Swing State</h3>
+
+                <p>
+                  A local co-op party game game jam entry from a team of 6 people over the course of 2 days.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>Unity 6000, C#, Github, Visual Studio</p>
+                <h4>Placement</h4>
+                <p>3/30</p>
+              </div>
+            </div>
           </a>
         </div>
       </div>
@@ -140,31 +243,68 @@
       <h2>School Projects</h2>
       <div class="grid-container">
 
-                <div class="project-card">
+        <div class="project-card">
           <a href="digdug.html">
             <div class="card-desc">2D C++ Game Engine + DigDug</div>
             <img src="Resources/GIFs/DigDug.gif" alt="2D Game Engine + DigDug image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>2D C++ Game Engine + DigDug</h3>
+
+                <p>
+                  A 2D C++ component-based game engine made from scratch, on top of which I made a recreation of DigDug.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>C++, SDL2, ImGui, Visual Studio</p>
+              </div>
+            </div>
           </a>
         </div>
 
-                <div class="project-card">
+        <div class="project-card">
           <a href="graduationwork.html">
             <div class="card-desc">Graduation Work</div>
             <img src="Resources/GIFs/GraduationWork.gif" alt="Graduation Work image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>Graduation Work</h3>
+
+                <p>
+                  My Game Development graduation work, focused on comparing optimization methods for games that need to simulate a lot of entities at the same time.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>Unity 6000, C#, Visual Studio</p>
+              </div>
+            </div>
           </a>
         </div>
 
-       <div class="project-card">
+        <div class="project-card">
           <a href="ribbitrampage.html">
             <div class="card-desc">Ribbit Rampage</div>
             <img src="Resources/GIFs/RibbitRampage.gif" alt="Ribbit Rampage image">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h3>Ribbit Rampage</h3>
+
+                <p>
+                  A group project revolving around a local co-op boss fight, made during my studies in a team of 5 people.
+                </p>
+
+                <h4>Tech Stack</h4>
+                <p>Unity 6000, C#, Perforce, Visual Studio</p>
+              </div>
+            </div>
           </a>
         </div>
 
-        </div>
+      </div>
     </section>
 
   </main>
 
 </body>
+
 </html>
